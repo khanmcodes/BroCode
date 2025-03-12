@@ -15,7 +15,7 @@
     "commands": [
       {
         "command": "brocode.helloWorld",
-        "title": "Hello World"
+        "title": "Speak Selected Text (BroCode)"
       }
     ]
   },
@@ -43,6 +43,8 @@
     "typescript": "^5.7.3"
   },
   "dependencies": {
-    "@google-cloud/text-to-speech": "^5.8.1"
+    "@google-cloud/text-to-speech": "^5.8.1",
+    "fs": "^0.0.1-security",
+    "util": "^0.12.5"
   }
 }
